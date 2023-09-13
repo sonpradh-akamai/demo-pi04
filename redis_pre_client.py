@@ -20,3 +20,4 @@ for i in range(2000):
 result = r.client_list()
 print("CLIENT LIST returned : ")
 for c in result:
+    print(f"id : {c['id']}, addr : {c['addr']}")
