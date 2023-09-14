@@ -1,10 +1,10 @@
 import pyodbc
 import time
 
-server = 'tcp:db-billing-sql-server.database.windows.net'
-database = 'demo-sql-db'
+server = 'tcp:db-billing-sql-managed-instance.7b779c7ea783.database.windows.net'
+database = 'billing-db'
 username = 'azureuser'
-password = 'Azur3us3r123'
+password = 'Azur3us3r12345678'
 driver = '{ODBC Driver 18 for SQL Server}'
 
 def create_table(cursor):
