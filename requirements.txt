@@ -2,6 +2,6 @@ azure-identity
 azure-keyvault
 azure-keyvault-secrets
 azure-storage-blob
-
+psycopg2-binary
 pyodbc
 redis
